@@ -1,0 +1,26 @@
+{
+  "name": "cycle-power-up",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel *.html",
+    "build": "parcel build *.html",
+    "deploy": "npm run build && surge dist"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "formik": "1.3.2",
+    "moment": "2.22.2",
+    "react": "16.6.3",
+    "react-dom": "16.6.3",
+    "react-draggable": "3.0.5"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-react-app": "6.1.0",
+    "parcel-bundler": "1.10.3"
+  }
+}
